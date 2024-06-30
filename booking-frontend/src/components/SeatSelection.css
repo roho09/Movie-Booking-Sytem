@@ -1,0 +1,30 @@
+/* src/components/SeatSelection.css */
+
+
+.seat-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .seat.booked {
+    background-color: #ff4d4d;
+    cursor: not-allowed;
+  }
+  
+  .seat.selected {
+    background-color: #4caf50;
+  }
+  

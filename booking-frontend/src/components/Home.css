@@ -1,0 +1,30 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #61dafb;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #21a1f1;
+  }
+  
+  .link svg {
+    margin-right: 8px;
+  }
+  
