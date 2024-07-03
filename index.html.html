@@ -13,6 +13,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
         header {
             background-color: #333;
@@ -25,6 +27,7 @@
             padding: 20px;
             max-width: 800px;
             width: 100%;
+            text-align: center;
         }
         footer {
             background-color: #333;
@@ -35,6 +38,12 @@
             position: fixed;
             bottom: 0;
         }
+        a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +52,15 @@
     </header>
     <main>
         <h2>Welcome to the Movie Booking System</h2>
-        <p>This is the main page for the Movie Booking System project.</p>
+        <p>This project includes several components. You can access them using the links below:</p>
+        <nav>
+            <a href="admin-panel-frontend/index.html">Admin Panel Frontend</a>
+            <a href="booking-frontend/index.html">Booking Frontend</a>
+            <a href="frontend/index.html">Main Frontend</a>
+            <a href="screen-configuration-frontend/index.html">Screen Configuration Frontend</a>
+            <a href="seat-management-frontend/index.html">Seat Management Frontend</a>
+            <a href="security-frontend/index.html">Security Frontend</a>
+        </nav>
     </main>
     <footer>
         <p>&copy; 2024 Movie Booking System</p>
